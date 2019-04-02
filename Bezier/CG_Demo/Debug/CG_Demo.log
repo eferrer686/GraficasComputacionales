@@ -1,0 +1,5 @@
+﻿  CG_Demo.cpp
+c:\users\edfmg\documents\itesm\graficas computacionales\bezier\cg_demo\source\cg_demo.cpp(135): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\itesm\graficas computacionales\bezier\cg_demo\source\cg_demo.cpp(239): warning C4305: '=': truncamiento de 'double' a 'float'
+c:\users\edfmg\documents\itesm\graficas computacionales\bezier\cg_demo\source\cg_demo.cpp(240): warning C4305: '=': truncamiento de 'double' a 'float'
+  CG_Demo.vcxproj -> C:\Users\edfmg\Documents\ITESM\Graficas Computacionales\Bezier\Debug\CG_Demo.exe
