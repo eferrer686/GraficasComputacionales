@@ -202,7 +202,7 @@ bool Person::collidePlayer(Player* p) {
 	dist = ((p->posX - pos->x)*(p->posX - pos->x)) + ((p->posZ - pos->z)*(p->posZ - pos->z));
 	dist = sqrt(dist);
 
-	if (dist < radius + (radius*0.4))
+	if (dist < radius + (radius*3))
 	{
 		return true;
 	}

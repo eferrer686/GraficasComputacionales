@@ -101,6 +101,22 @@ void init() // FOR GLUT LOOP
 	lego = new Legorreta();
 	
 	player = new Player(1, 0, 0);
+	
+	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_TEXTURE_2D);
+	glClearColor(0.0, 0.0, 0.0, 0.0);
+
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+
+	GLfloat diffusel0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat ambientl0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat specularl0[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+	GLfloat position[4] = { 2.0f, 0.5f, 1.0f, 0.0f };
+	glLightfv(GL_LIGHT0, GL_AMBIENT, ambientl0);
+	glLightfv(GL_LIGHT0, GL_DIFFUSE, diffusel0);
+	glLightfv(GL_LIGHT0, GL_SPECULAR, specularl0);
+	glLightfv(GL_LIGHT0, GL_POSITION, position);
 
 	global_ambient = new GLfloat[4];
 	global_ambient[0] = 0.3f;

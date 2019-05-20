@@ -15,6 +15,10 @@ public:
 	float* dims;
 	float* center;
 	void draw();
+	float sintel_pos[3];
+	float sintel_dims[3];
+	float radius;
+	float mode;
 
 	Legorreta();
 	~Legorreta();

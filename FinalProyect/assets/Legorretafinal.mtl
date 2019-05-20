@@ -331,7 +331,6 @@ illum 4
 Kd 0.00 0.14 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-bump cesped.jpg -bm 1
 Ni 1.00
 newmtl lambert39SG
 illum 4
@@ -405,7 +404,6 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd pisoroca2.tga
 Ni 1.00
 newmtl lambert53SG
 illum 4
@@ -418,14 +416,12 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd pisoroca2.tga
 Ni 1.00
 newmtl lambert55SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd pisoroca3.tga
 Ni 1.00
 newmtl lambert56SG
 illum 4
@@ -452,5 +448,4 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.40 0.40 0.40
 Tf 1.00 1.00 1.00
-map_Kd legorreta.tga
 Ni 1.00
